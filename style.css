@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@400;600;700&display=swap');
+body{
+    margin: 0;
+    height: 100vh;
+    background: radial-gradient(circle at center, #130060, #19134a,#81394d );
+    background-size: 200% 200%;
+    animation: gradientAnimation 10s ease infinite;
+}
+@keyframes gradientAnimation {
+    
+    0% {
+        background-position: 0% 20%;
+    }
+    50% {
+        background-position: 10% 25%;
+    }
+}
+a{
+    text-decoration: none;
+    color: gold;
+    transition: all 0.4s ease;
+}
+
+.navbar{
+    background-color: rgba(4, 5, 75, 0.664);
+    border-bottom: 1px solid #120087 ;
+}
+.navbar ul a{
+    font-size: 18px;
+    color: white !important;
+}
+.navbar ul a:hover{
+    color: #1e02d8 !important;
+}
+.navbar a.button1{
+    border: 1px solid #1e02d8;
+    background-color: #120087;
+    opacity: 10;
+    color: white;
+}
+.navbar a.button1:hover{
+    border: 1px solid #a8284c;
+}
+.profil img{
+    height: 500px;
+    width: 500px;
+    object-fit: cover;
+}
+
+/* About */
+.about{
+    background-color: rgba(0, 0, 0, 0.664);
+    border-radius: 100px 100px 30px 30px;
+
+}
+/* .test1{
+    font-size: 40px;
+    display: inline-block;
+    display: inline;
+} */
